@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Notifications from './Notifications';
 import ProjectList from '../projects/ProjectList';
 const Dashboard = props => {
