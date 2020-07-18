@@ -9,7 +9,7 @@ const ProjectList = props => {
             <ProjectSummary />
             <ProjectSummary />
             <ProjectSummary />
-            <ProjectSummary />
+            
 
         </div>
         
