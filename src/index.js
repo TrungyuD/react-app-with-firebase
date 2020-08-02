@@ -20,12 +20,15 @@ const store = createStore(rootReducer,
   )
 );
 
-const rrfConfig = {
+const profileSpecificProps = {
   userProfile: 'users',
+  useFirestoreForProfile: true,
+  enableRedirectHandling: false,
+  resetBeforeLogin: false
 }
 const rrfProps = {
   firebase,
-  config: rrfConfig,
+  config: profileSpecificProps,
   dispatch: store.dispatch,
   createFirestoreInstance,
   userProfile: 'users', // where profiles are stored in database
