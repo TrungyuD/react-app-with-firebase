@@ -3,7 +3,7 @@ import React from 'react'
 const Notifications = props => {
     return (
         <div>
-            <p style={{color:'blue'}}>Notifications</p>
+            <p>Notifications</p>
         </div>
     )
 }
